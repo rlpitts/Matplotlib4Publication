@@ -6,14 +6,14 @@ axes.formatter.limits : -6, 6 # use scientific notation if log10
                               # of the axis range is smaller than the
                               # first or larger than the second
                               #	default -7,7
-axes.prop_cycle: cycler('color', ['006BA4', 'FF800E', 'ABABAB', '595959', '5F9ED1', 'C85200', '898989', 'A2C8EC', 'FFBC79', 'CFCFCF'])   # Tableau colorblind 10 palette
+axes.prop_cycle  : cycler('color', ['006BA4', 'FF800E', 'ABABAB', '595959', '5F9ED1', 'C85200', '898989', 'A2C8EC', 'FFBC79', 'CFCFCF'])   # Tableau colorblind 10 palette
                                            # color cycle for plot lines
                                            # as list of string colorspecs:
                                            # single letter, long name, or
                                            # web-style hex
-patch.facecolor: 006BA4                                           
-polaraxes.grid: True	# already true by default
-axes3d.grid:    True	# already true by default
+patch.facecolor  : 006BA4                                           
+polaraxes.grid   : True	# already true by default
+axes3d.grid      :    True	# already true by default
 
 grid.color       :   k       # grid color
 grid.linestyle   :   :       # dotted
@@ -30,20 +30,20 @@ ytick.right	:    True # default
 
 
 ## Figure properties
-figure.figsize:          6.0, 4.5 # figure size in inches: width, height
-figure.dpi:              300 # default is 72, but that's usually way too low
-savefig.dpi:          	 300 # default is 100
+figure.figsize  :          6.0, 4.5 # figure size in inches: width, height
+figure.dpi      :          300 # default is 72, but that's usually way too low
+savefig.dpi     :          300 # default is 100
 
 # errorbar props
-errorbar.capsize: 3
+errorbar.capsize  : 3
 
 # scatter props
-scatter.marker: .	#default is 'o' but that can be too big
+scatter.marker  : .	#default is 'o' but that can be too big
 
 
 ## Font properties
-font.family:  serif	#change to sans-serif if desired
-font.size:    14	#default is normally 12
+font.family  :    serif	#change to sans-serif if desired
+font.size    :    14	#default is normally 12
 
 # Fonts available for use depending on OS and installed fonts
 # Added a few MS fonts to the default lists
@@ -86,15 +86,15 @@ font.monospace: Bitstream Vera Sans Mono,
                 monospace
                 
 # Math text properties
-text.usetex:    True 		# pretty much always needed
-mathtext.rm:    serif		# recommend adjusting this with font.family
-mathtext.it:    serif:italic	# ^same, but leave :italic
-mathtext.bf:    serif:bold	# ^same, but leave :bold
-mathtext.sf:    sans-serif	# if font-family is sans-serif, change this to serif
+text.usetex  :    True 		    # pretty much always needed
+mathtext.rm  :    serif		    # recommend adjusting this with font.family
+mathtext.it  :    serif:italic	# ^same, but leave :italic
+mathtext.bf  :    serif:bold	# ^same, but leave :bold
+mathtext.sf  :    sans-serif	# if font-family is sans-serif, change this to serif
 
 
 # Image properties
-image.cmap:          cividis	#default is viridis; cividis is for colorblindness
-image.origin:        lower	#default is upper; lower is how images are typically stored
+image.cmap    :        cividis	#default is viridis; cividis is for colorblindness
+image.origin  :        lower	  #default is upper; lower is how images are typically stored
 
 
