@@ -13,7 +13,7 @@ axes.prop_cycle  : cycler('color', ['006BA4', 'FF800E', 'ABABAB', '595959', '5F9
                                            # web-style hex
 patch.facecolor  : 006BA4                                           
 polaraxes.grid   : True	# already true by default
-axes3d.grid      :    True	# already true by default
+axes3d.grid      : True	# already true by default
 
 grid.color       :   k       # grid color
 grid.linestyle   :   :       # dotted
