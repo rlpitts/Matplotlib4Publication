@@ -6,7 +6,7 @@ axes.formatter.limits : -6, 6 # use scientific notation if log10
                               # of the axis range is smaller than the
                               # first or larger than the second
                               #	default -7,7
-axes.prop_cycle: cycler('color', ['tab:blue', 'tab:orange', 'tab:cyan', 'tab:red', 'tab:green', 'm', '843C39', 'E7BA52', '393B79', 'tab:gray'])   # Tableau colorblind 10 palette
+axes.prop_cycle: cycler('color', ['tab:blue', 'darkorange', 'tab:cyan', 'tab:red', '4DAF4A', 'indigo',  'maroon', 'tab:gray', 'orchid', 'FFD92F'])   # Tableau colorblind 10 palette
                                            # color cycle for plot lines
                                            # as list of string colorspecs:
                                            # single letter, long name, or
