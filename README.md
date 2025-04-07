@@ -1,13 +1,11 @@
 # LUNARC_training
 -----------------------------
 ## Matplotlib for Publication
-Notebooks and training exercises for the "Matplotlib for Publication" tutorial workshop, hosted at Lund University for students, faculty, and staff affiliated with NAISS. I have covered as much material as I felt I could cram into two 1-hour lectures and a 2-hour assignment.
+Notebooks and training exercises for the "Matplotlib for Publication" tutorial workshop, hosted at Lund University for students, faculty, and staff affiliated with NAISS. The demo plotting code used during code-along breaks in the lectures is one that students are expected to write up themselves. The instructor copy will not be shared.
 
-`MatplotlibTraining.ipynb` contains the lecture materials (slides are available in the .pdf file of the same name), and the other 2 .ipynb files are the exercises and solutions. Some code blocks and demo images in MatplotlibTraining.ipynb rely on downloaded or hyperlinked data. In the case of the `titanic_train.csv`, loading the file from URL requires an account login even though the data are public, and the `mpl4publication.mplstyle` file must be in your CWD to run the last block of code in the notebook as-is. If you wish to run all cells, download all non-ipynb files to be safe.
-
-The exoplanet CSV files are convenient public training data sets from Kaggle (the one for the exercises was adapted from https://www.kaggle.com/datasets/adityamishraml/nasaexoplanets), to be used in a demo and the exercises.
+The lecture materials are available in `Matplotlib4Pub-slides.pdf`. The 4 `.ipynb` files are the exercises and solutions, which depend on data from the `exoplanets_5245_EarthUnits.csv` file. The exoplanet CSV files are convenient public training data sets from Kaggle (the one for the exercises was adapted from https://www.kaggle.com/datasets/adityamishraml/nasaexoplanets and cleaned up).
 
 ##### STUDENTS & TUTORS:
-- Download 'exoplanets_5250_EarthUnits.csv' to use as the data file for the first set of exercises.
-- Download imshow_heatmap.py to use for exercise set 3.
-- Optionally, also download mpl4publication.mplstyle for viewing/use, and Earth.png for the bonus challenge prompt at the end of exercise 1-3.
+- Download `'exoplanets_5245_EarthUnits.csv'` to use as the data file for the first set of exercises.
+- Download `imshow_heatmap.py` to use for the last exercise of day 2.
+- Optionally, also download mpl4publication.mplstyle for viewing/use.
